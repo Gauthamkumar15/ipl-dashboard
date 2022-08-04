@@ -1,0 +1,83 @@
+/* Write your CSS here */
+
+@media screen and (min-width: 577px) {
+  .list1 {
+    background-color: #0f172a;
+    color: #ffffff;
+    margin: 2%;
+    width: 40%;
+    height: 37vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    border-radius: 5%;
+  }
+
+  .matches {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 3%;
+  }
+
+  .img {
+    width: 36%;
+  }
+
+  .result {
+    font-size: 45%;
+  }
+
+  .green {
+    color: #18ed66;
+  }
+
+  .red {
+    color: #e31a1a;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .list1 {
+    background-color: #0f172a;
+    color: #ffffff;
+    margin: 2%;
+    width: 40%;
+    height: 37vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    border-radius: 5%;
+  }
+
+  .matches {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 3%;
+  }
+
+  .img {
+    width: 36%;
+  }
+
+  .result {
+    font-size: 45%;
+  }
+
+  .green {
+    color: #18ed66;
+  }
+
+  .red {
+    color: #e31a1a;
+  }
+}

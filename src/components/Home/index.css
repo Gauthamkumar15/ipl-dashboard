@@ -1,0 +1,78 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+}
+
+.loader {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 577px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 4%;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Bree Serif';
+  }
+
+  .logo-image {
+    width: 10%;
+    margin: 3%;
+  }
+
+  .home-ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 4%;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Bree Serif';
+  }
+
+  .logo-image {
+    width: 10%;
+    margin: 3%;
+  }
+
+  .home-ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+}
